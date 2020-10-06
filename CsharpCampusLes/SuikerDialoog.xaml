@@ -1,0 +1,16 @@
+﻿<Window x:Class="CsharpCampusLes.SuikerDialoog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CsharpCampusLes"
+        mc:Ignorable="d"
+        Title="SuikerDialoog" Height="450" Width="800">
+    <Grid>
+        <Button Name="btnIkWil" Content="Ik wil suiker" HorizontalAlignment="Left" Margin="215,174,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Name="btnLaatMaar" Content="Ik wil geen suiker" HorizontalAlignment="Left" Margin="362,184,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label Content="SUIKERBEHOEFTE!!!" HorizontalAlignment="Left" Margin="37,29,0,0" VerticalAlignment="Top" MouseEnter="Label_MouseEnter" FontSize="72"/>
+        <Label Content="Let op het vinkje 'Suiker' op het hoofdscherm!" HorizontalAlignment="Left" Height="44" Margin="65,232,0,0" VerticalAlignment="Top" Width="695" FontSize="24"/>
+
+    </Grid>
+</Window>
